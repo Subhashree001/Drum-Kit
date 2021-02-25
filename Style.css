@@ -1,0 +1,107 @@
+ /* <!-- This is what I created --> */
+body{
+  background-color: #6f9eaf;
+  text-align:center;
+  font-family: 'Berkshire Swash', cursive;
+  font-size:3.7rem;
+  margin:0;
+  padding:0;
+  color:#11698e;
+}
+
+h1{
+  text-shadow: 6px 4px #19456b;
+  margin-top:3%;
+}
+
+.set{
+  margin:5% auto;
+}
+
+.pressed{
+  box-shadow: 8px 8px #19456b;
+  opacity: 0.5;
+}
+
+.drum{
+  outline:none;
+  width:9rem;
+  height:9rem;
+  background-color:#f6d887;
+  border:10px solid #c7753d;
+  border-radius: 15px;
+  margin:4% 0.5%;
+  display:inline-block;
+  color:#c7753d;
+  line-height: 1.2rem;
+  font-family: 'Emilys Candy', cursive;
+  font-size: 4rem;
+  font-weight:bolder;
+}
+
+.w{
+  background-image: url("crash.png");
+}
+
+.a{
+  background-image: url("kick.png");
+}
+
+.s{
+  background-image: url("snare.png");
+}
+
+.d{
+  background-image: url("tom1.png");
+}
+
+.j{
+    background-image: url("tom2.png");
+}
+
+.k{
+  background-image: url("tom3.png");
+}
+
+.l{
+  background-image: url("tom4.png");
+}
+
+footer{
+  font-size:1.2rem;
+  color:#f6d887;
+  text-shadow:1px 1px #c7753d;
+  margin-top:3%;
+}
+
+@media(max-width:1080px){
+
+  body{
+    font-size:5.2rem;
+  }
+
+  h1{
+    text-shadow: 9px 7px #19456b;
+    margin-top:7%;
+  }
+
+  .set{
+    margin:7% auto;
+  }
+
+  .drum{
+    width:15rem;
+    height:15rem;
+    border:17px solid #c7753d;
+    border-radius:17px;
+    margin:6% 1.5%;
+    line-height: 4rem;
+    font-size: 6rem;
+  }
+
+  footer{
+    font-size:2.5rem;
+    text-shadow:2px 2px #c7753d;
+    margin-top:9%;
+  }
+}
